@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-       git branch: 'main', credentialsId: '9bec108a-ecb0-49b6-91ae-e5bad5f3084c', url: 'https://github.com/Srinu-rj/E-Commerce-application.git'
+        git branch: 'main', url: 'https://github.com/Srinu-rj/E-Commerce-application.git'     
       }
     }
     stage('Build') {
